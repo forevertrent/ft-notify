@@ -5,7 +5,7 @@ Forever Trent | QBCore Notification System
 # qbcore
 
 ### If you want QBCore to have this notification, change the following in
-### qb-core/client/functions.lua:
+### qb-core/client/functions.lua: (after line 141 function QBCore.Debug)
 
 ```lua
 function QBCore.Functions.Notify(text, texttype, length)
