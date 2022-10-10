@@ -9,7 +9,7 @@ Forever Trent | QBCore Notification System
 
 ## Replace This:
 
-function QBCore.Functions.Notify(text, texttype, length)
+``function QBCore.Functions.Notify(text, texttype, length)
     if type(text) == "table" then
         local ttext = text.text or 'Placeholder'
         local caption = text.caption or 'Placeholder'
@@ -32,20 +32,14 @@ function QBCore.Functions.Notify(text, texttype, length)
             text = text
         })
     end
-end
+end```
 
 
-## to
+to
  
-function QBCore.Functions.Notify(text, texttype, length)
+``function QBCore.Functions.Notify(text, texttype, length)
     exports['notify']:Notify(text, texttype, length)
-end
-
-lua
-function QBCore.Functions.Notify(text, texttype, length)
-    exports['notify']:Notify(text, texttype, length)
-ens
-
+end``
 
 Images: 
 ![image](https://cdn.discordapp.com/attachments/997008380642205746/1028544957956489236/unknown.png)
